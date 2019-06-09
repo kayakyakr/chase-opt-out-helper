@@ -28,7 +28,7 @@ const PrintPage = () => (
 function App() {
   return (
     <StoreContextProvider>
-      <Router>
+      <Router basename={window.location.pathname.replace(/\/$/, '')}>
         <Container className={style.body}>
           <header className={style.header}>
             <h1>Opt Out of Chase&apos;s Forced Arbitration Clause</h1>
