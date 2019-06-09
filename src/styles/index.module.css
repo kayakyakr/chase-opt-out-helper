@@ -1,0 +1,27 @@
+.body {
+  padding: 0 0 30px;
+}
+
+.header {
+  padding: 20px;
+  background: #013;
+  margin: 0 -20px 20px;
+}
+
+.header h1 {
+  color: #FFF;
+  font-size: 20px;
+}
+
+@media print {
+  @page { size: auto;  margin: 0; }
+
+  .body {
+    width: 100%;
+    margin: 0.5in;
+  }
+
+  header, h1, h2, h3, a, button {
+    display: none;
+  }
+}

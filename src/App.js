@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Container } from 'reactstrap'
+
+import Faq from './screens/Faq'
+import Form from './screens/Form'
+import Printout from './screens/Printout'
+import Support from './screens/Support'
+import { Provider as StoreContextProvider } from './contexts/Store'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import style from './styles/index.module.css'
+
+const FormPage = () => (
+  <React.Fragment>
+    <Faq />
+    <Form />
+  </React.Fragment>
+)
+
+const PrintPage = () => (
+  <React.Fragment>
+    <Printout />
+    <Support />
+  </React.Fragment>
+)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StoreContextProvider>
+      <Router>
+        <Container className={style.body}>
+          <header className={style.header}>
+            <h1>Opt Out of Chase&apos;s Forced Arbitration Clause</h1>
+          </header>
+          <Route path="/" exact component={FormPage} />
+          <Route path="/print" component={PrintPage} />
+        </Container>
+      </Router>
+    </StoreContextProvider>
   );
 }
 
