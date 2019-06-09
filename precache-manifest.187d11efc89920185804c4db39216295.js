@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb26fa998eff806e7e43aa8af05cc765",
+    "revision": "a08e6cff2901ba12bc76d95eee5c351e",
     "url": "/chase-opt-out-helper/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chase-opt-out-helper/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "7bb9c76e15104c2722fd",
+    "revision": "a79a868b132a7df9a042",
     "url": "/chase-opt-out-helper/static/css/main.812ead5f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chase-opt-out-helper/static/js/2.ab8d95a8.chunk.js"
   },
   {
-    "revision": "7bb9c76e15104c2722fd",
-    "url": "/chase-opt-out-helper/static/js/main.44309d64.chunk.js"
+    "revision": "a79a868b132a7df9a042",
+    "url": "/chase-opt-out-helper/static/js/main.2f72b8ef.chunk.js"
   },
   {
     "revision": "46785afded598d3168cb",
