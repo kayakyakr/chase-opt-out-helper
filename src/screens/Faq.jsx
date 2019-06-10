@@ -15,7 +15,7 @@ export default () => (
       </Col>
       <Col sm="6">
         <h3 className={style.question}>You're not going to steal my info, right?</h3>
-        <p className={style.answer}>There's no backend. This thing is hosted on github pages. It's open source. You can see the code, that I'm not collecting any data.</p>
+        <p className={style.answer}>There's no backend. This thing is hosted on github pages. It's open source. You can see the code, that I'm not collecting any data. Or write the account numbers by hand after printing.</p>
         <p className={style.answer}>I do have google analytics hooked up because I wanna know how many people are visiting. Just visits, I promise, check the code.</p>
         <h3 className={style.question}>Do I really have to snail mail?</h3>
         <p className={style.answer}>Yeah, it's Chase's rules. They suck, but fill this out, send it in, get your $0.55 revenge?</p>
