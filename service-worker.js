@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chase-opt-out-helper/precache-manifest.1060de859f291274381984635e70c6e3.js"
+  "/chase-opt-out-helper/precache-manifest.992caf8ec1502fa0fc626c1115f0adf1.js"
 );
 
 self.addEventListener('message', (event) => {
